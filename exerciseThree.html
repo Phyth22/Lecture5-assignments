@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alert Jane</title>
+    <style>
+      
+        body {
+          background-color: yellow;
+        }
+    
+        h1 {
+          text-align: center;
+          text-shadow: 2px 2px 5px rgb(143, 150, 150); /* Adjust the shadow distance and blur radius as desired */
+          text-decoration:dotted; /* Added underline for better visibility */
+        }
+      </style>
+</head>
+<body>
+    <p id="demo"></p>
+    <h1>REFRESH ME FOR AN alert</h1>
+</body>
+<script>
+    const person = {
+        name: "John",
+        age: 50
+      };
+      
+      const message = `${person.name} is ${person.age}`;
+      alert(message); // Output: "John is 50" 
+</script>
+</html>
